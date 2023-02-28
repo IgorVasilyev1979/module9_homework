@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <div>Механизм работы приложения</div>
+        <ol class="description-list">
+          <li>Создаем функцию <em>useRequest</em>, которая будет осуществлять запрос</li>
+          <li>Создаем функцию <em>displayResult</em> для сборки карточек и вставки на страницу</li>
+          <li>Ищем элементы кнопки и блока с результатом</li>
+          <li>Вешаем обработчик <em>click</em> на кнопку, который проверяет находится ли число, введенное в Input, в диапазоне от 1 до 10 и, если это так, делает запрос с помощью функции <em>useRequest</em>, результат запроса выводит на страницу с помощью функции <em>displayResult</em>.</li>
+        </ol>
+    </p>
+
+        <input type="number">
+      
+        <button class="btn j-btn-request">Запрашиваем данные</button>
+      
+        <div class="result j-result">Здесь будет результат запроса</div>
+    <script src="exercise3.js"></script>
+</body>
+</html>
